@@ -1,0 +1,9 @@
+ipykernel
+scikit-learn
+statsmodels
+pandas
+xgboost
+tensorflow
+opencv-contrib-python
+pillow
+gradio
