@@ -1,0 +1,252 @@
+[
+    {
+        "label": "Presentation",
+        "importPath": "pptx",
+        "description": "pptx",
+        "isExtraImport": true,
+        "detail": "pptx",
+        "documentation": {}
+    },
+    {
+        "label": "Inches",
+        "importPath": "pptx.util",
+        "description": "pptx.util",
+        "isExtraImport": true,
+        "detail": "pptx.util",
+        "documentation": {}
+    },
+    {
+        "label": "presentation",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "presentation = Presentation()\n# Slide 1: Title Slide\nslide_layout = presentation.slide_layouts[0]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\nsubtitle = slide.placeholders[0]\ntitle.text = \"Commonly Used Visualization Charts and Plots in Python\"\nsubtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide_layout",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide_layout = presentation.slide_layouts[0]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\nsubtitle = slide.placeholders[0]\ntitle.text = \"Commonly Used Visualization Charts and Plots in Python\"\nsubtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\nsubtitle = slide.placeholders[0]\ntitle.text = \"Commonly Used Visualization Charts and Plots in Python\"\nsubtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title = slide.shapes.title\nsubtitle = slide.placeholders[0]\ntitle.text = \"Commonly Used Visualization Charts and Plots in Python\"\nsubtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "subtitle",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "subtitle = slide.placeholders[0]\ntitle.text = \"Commonly Used Visualization Charts and Plots in Python\"\nsubtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title.text = \"Commonly Used Visualization Charts and Plots in Python\"\nsubtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "subtitle.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "subtitle.text = \"Understanding which chart to use for different problems\"\n# Slide 2: Introduction\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide_layout",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"\n)\n# Define slide content for each chart",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"\n)\n# Define slide content for each chart\nchart_data = [",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"\n)\n# Define slide content for each chart\nchart_data = [\n    (\"Line Chart\", \"Ideal for showing trends or changes over time.\", \"Plotting stock prices over months.\"),",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "content",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "content = slide.placeholders[0]\ntitle.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"\n)\n# Define slide content for each chart\nchart_data = [\n    (\"Line Chart\", \"Ideal for showing trends or changes over time.\", \"Plotting stock prices over months.\"),\n    (\"Bar Chart\", \"Suitable for comparing categories or showing the distribution of a single variable.\", \"Comparing sales performance of different products.\"),",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title.text = \"Introduction\"\ncontent.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"\n)\n# Define slide content for each chart\nchart_data = [\n    (\"Line Chart\", \"Ideal for showing trends or changes over time.\", \"Plotting stock prices over months.\"),\n    (\"Bar Chart\", \"Suitable for comparing categories or showing the distribution of a single variable.\", \"Comparing sales performance of different products.\"),\n    (\"Histogram\", \"Visualizes the distribution of a single variable.\", \"Displaying the frequency distribution of exam scores.\"),",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "content.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "content.text = (\n    \"Briefly introduce the importance of data visualization in analysis.\\n\"\n    \"Mention that the right choice of charts enhances communication and understanding of data.\"\n)\n# Define slide content for each chart\nchart_data = [\n    (\"Line Chart\", \"Ideal for showing trends or changes over time.\", \"Plotting stock prices over months.\"),\n    (\"Bar Chart\", \"Suitable for comparing categories or showing the distribution of a single variable.\", \"Comparing sales performance of different products.\"),\n    (\"Histogram\", \"Visualizes the distribution of a single variable.\", \"Displaying the frequency distribution of exam scores.\"),\n    (\"Scatter Plot\", \"Depicts the relationship between two numerical variables.\", \"Examining the correlation between hours of study and exam scores.\"),",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "chart_data",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "chart_data = [\n    (\"Line Chart\", \"Ideal for showing trends or changes over time.\", \"Plotting stock prices over months.\"),\n    (\"Bar Chart\", \"Suitable for comparing categories or showing the distribution of a single variable.\", \"Comparing sales performance of different products.\"),\n    (\"Histogram\", \"Visualizes the distribution of a single variable.\", \"Displaying the frequency distribution of exam scores.\"),\n    (\"Scatter Plot\", \"Depicts the relationship between two numerical variables.\", \"Examining the correlation between hours of study and exam scores.\"),\n    (\"Pie Chart\", \"Represents parts of a whole and is useful for displaying proportions.\", \"Showing the percentage distribution of expenses in a budget.\"),\n    (\"Box Plot\", \"Displays the distribution of a dataset and highlights outliers.\", \"Analyzing the distribution of salaries in a company.\"),\n    (\"Heatmap\", \"Represents data values in a matrix format using color intensity.\", \"Displaying correlations in a correlation matrix.\"),\n    (\"Area Chart\", \"Shows the magnitude of a phenomenon over time.\", \"Displaying the growth of a company's revenue over years.\"),\n]",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide_layout",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Conclusion\"\ncontent.text = (\n    \"Summarize key points.\\n\"\n    \"Emphasize the importance of choosing the right visualization for effective communication.\"\n)\n# Slide 12: Q&A",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Conclusion\"\ncontent.text = (\n    \"Summarize key points.\\n\"\n    \"Emphasize the importance of choosing the right visualization for effective communication.\"\n)\n# Slide 12: Q&A\nslide_layout = presentation.slide_layouts[1]",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Conclusion\"\ncontent.text = (\n    \"Summarize key points.\\n\"\n    \"Emphasize the importance of choosing the right visualization for effective communication.\"\n)\n# Slide 12: Q&A\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "content",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "content = slide.placeholders[0]\ntitle.text = \"Conclusion\"\ncontent.text = (\n    \"Summarize key points.\\n\"\n    \"Emphasize the importance of choosing the right visualization for effective communication.\"\n)\n# Slide 12: Q&A\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title.text = \"Conclusion\"\ncontent.text = (\n    \"Summarize key points.\\n\"\n    \"Emphasize the importance of choosing the right visualization for effective communication.\"\n)\n# Slide 12: Q&A\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "content.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "content.text = (\n    \"Summarize key points.\\n\"\n    \"Emphasize the importance of choosing the right visualization for effective communication.\"\n)\n# Slide 12: Q&A\nslide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Q&A\"",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide_layout",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide_layout = presentation.slide_layouts[1]\nslide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Q&A\"\ncontent.text = \"Invite questions and discussions.\"\n# Save the presentation\npresentation.save(\"VisualizationChartsPresentation.pptx\")",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "slide",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "slide = presentation.slides.add_slide(slide_layout)\ntitle = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Q&A\"\ncontent.text = \"Invite questions and discussions.\"\n# Save the presentation\npresentation.save(\"VisualizationChartsPresentation.pptx\")",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title = slide.shapes.title\ncontent = slide.placeholders[0]\ntitle.text = \"Q&A\"\ncontent.text = \"Invite questions and discussions.\"\n# Save the presentation\npresentation.save(\"VisualizationChartsPresentation.pptx\")",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "content",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "content = slide.placeholders[0]\ntitle.text = \"Q&A\"\ncontent.text = \"Invite questions and discussions.\"\n# Save the presentation\npresentation.save(\"VisualizationChartsPresentation.pptx\")",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "title.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "title.text = \"Q&A\"\ncontent.text = \"Invite questions and discussions.\"\n# Save the presentation\npresentation.save(\"VisualizationChartsPresentation.pptx\")",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    },
+    {
+        "label": "content.text",
+        "kind": 5,
+        "importPath": "MLMCA24.pptV",
+        "description": "MLMCA24.pptV",
+        "peekOfCode": "content.text = \"Invite questions and discussions.\"\n# Save the presentation\npresentation.save(\"VisualizationChartsPresentation.pptx\")",
+        "detail": "MLMCA24.pptV",
+        "documentation": {}
+    }
+]
