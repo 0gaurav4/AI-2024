@@ -8,3 +8,6 @@ opencv-contrib-python
 pillow
 gradio
 seaborn
+nltk
+plotly
+textblob
