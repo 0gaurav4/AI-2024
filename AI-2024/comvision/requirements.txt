@@ -1,0 +1,13 @@
+opencv-contrib-python
+ultralytics
+mediapipe
+supervision
+moviepy
+ffmpeg
+
+# download ImageMagick
+
+
+#pip install -r comvision/requirements.txt
+
+
